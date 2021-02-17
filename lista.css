@@ -1,0 +1,44 @@
+#a4 {
+    width: 1033px;
+    min-height: 1461px;
+
+}
+#a4 #cabeca {
+    height: 90px;
+
+    text-align: center;
+    border-bottom: 1px dashed #000;
+}
+#a4 #cabeca h1 {
+    font: 80px "Trebuchet MS";
+    margin: 0;
+
+}
+#a4 #title {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font: 20px "Trebuchet MS";
+    font-variant: small-caps;
+}
+#a4 table {
+    margin: 0 auto;
+    font: 18px Arial;
+    font-variant: small-caps;
+}
+#a4 table a{
+    color: #000;
+}
+#a4 table tr.resp {
+    background-color: #f2f8ff;
+    font-size: 15px;
+}
+#a4 table tr:hover {
+    background-color: #006699;
+    color: #ffffff;
+}
+#a4 tr:hover a {
+    color: #ffffff;
+}

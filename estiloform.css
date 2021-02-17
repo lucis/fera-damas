@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+#alunoform {
+    width: 720px;
+    height:680px;
+
+    font: 18px "Trebuchet MS", Arial;
+    margin-bottom: 50px;
+}
+#alunoform input, select {
+    height: 25px;
+    font: 19px "Trebuchet MS";
+}
+#alunoform .titulo{
+    width:700px;
+    margin: 0 auto;
+    font-weight:bold;
+    display: block;
+    color: #006699;
+}
+#alunoform .bloco {
+    width:700px;
+    margin:0 auto;
+    /*display: inline;*/
+    color: 000;
+
+
+}
+#alunoform #turma {
+    width:130px;
+    float: right;
+    margin: 0;
+}
+#alunoform #nome {
+    width:530px;
+    float:left;
+
+}
+
+#alunoform #num {
+    width:70px;
+    float: right;
+}
+#alunoform #matricula {
+    width: 168px;
+
+    float:left;
+}
+#alunoform #matricula input {
+    width: 150px;
+}
+#alunoform #nascimento {
+    width: 228px;
+
+    float:left;
+}
+#alunoform #chamada {
+    width: 105px;
+    float: left;
+}
+#alunoform #chamada input{
+    width: 50px;
+}
+#alunoform .data{
+    width: 110px;
+}
+#alunoform #id {
+    width: 190px;
+
+    float: left;
+}
+#alunoform #id input{
+    width: 50px;
+}
+#alunoform .conjunto {
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+}
+#alunoform #curso1 {
+    width: 360px;
+    float: left;
+}
+#alunoform #curso1 input {
+    width: 340px;
+}
+#alunoform #inscricao {
+    width: 150px;
+    float: left;
+
+}
+#alunoform #inscricao input {
+    width: 160px;
+}
+#alunoform #senha {
+    width: 190px;
+    float: left;
+
+}
+#alunoform #senha input {
+    width:170px;
+    float: right;
+}
+#alunoform #rua {
+    width: 600px;
+    float: left;
+
+}
+#alunoform #rua input {
+    width: 580px;
+}
+#alunoform #numero {
+    width: 100px;
+    float: right;
+}
+#alunoform #numero input{
+    width: 100px;
+}
+#alunoform #bairro {
+    float: left;
+    width: 230px;
+
+}
+
+#alunoform #cidade {
+    float: left;
+    width: 230px;
+
+}
+#alunoform #fixo {
+    float: left;
+    width: 230px;
+
+}
+#alunoform .telefone {
+    width: 105px;
+}
+#alunoform #cel1 {
+    float: left;
+    width: 233px;
+
+}
+#alunoform #cel2 {
+    float: left;
+    width: 233px;
+
+}
+#alunoform #cpf input {
+    width:125px;
+}
+#alunoform #cpf {
+    float: left;
+    width: 233px;
+
+}
+#alunoform #email{
+    width: 400px;
+
+    float: left;
+}
+#alunoform #email input {
+    width: 380px;
+}
+#alunoform #titulo{
+    width: 170px;
+    float: left;
+
+}
+#alunoform #titulo input{
+    width: 150px;
+}
+#alunoform #zona{
+    width: 60px;
+
+    float: left;
+}
+#alunoform #zona input{
+    width: 50px;
+
+
+}
+#alunoform #secaoe input {
+    width: 60px;
+}
+#alunoform #secaoe{
+    width: 70px;
+
+    float: left;
+    margin: 0;
+;
+}
+#alunoform #rg{
+    width: 233px;
+    float: left;
+
+}
+#alunoform #orgrg{
+    width: 233px;
+    float: left;
+
+}
+#alunoform #datarg{
+    width: 233px;
+    float: left;
+
+}
+#alunoform #resp1{
+    width: 500px;
+    float: left;
+
+}
+#alunoform #resp1 input {
+    width: 480px;
+}
+#alunoform #cel1resp1{
+    width: 200px;
+    float: left;
+
+}
+#alunoform #emailresp1{
+    width: 500px;
+    float: left;
+
+}
+#alunoform #emailresp1 input {
+    width: 400px;
+}
+#alunoform #cel2resp1{
+    width: 200px;
+    float: left;
+
+}
+#alunoform #resp2{
+    width: 500px;
+    float: left;
+
+}
+#alunoform #resp2 input {
+    width: 480px;
+}
+#alunoform #cel1resp2{
+    width: 200px;
+    float: left;
+
+}
+#alunoform #emailresp2{
+    width: 500px;
+    float: left;
+
+}
+#alunoform #emailresp2 input {
+    width: 400px;
+}
+#alunoform #cel2resp2{
+    width: 200px;
+    float: left;
+
+}
+#alunoform #blocopai{
+    border: 1px solid #000;
+    width: 698px;
+    margin: 0 auto;
+    padding: 4px 0 0 5px;
+}
+#alunoform #blocomae {
+    border: 1px solid #000;
+    width: 698px;
+    margin: 10px auto 3px;
+    padding: 4px 0 0 5px;
+}
+#alunoform #curso2{
+    width:250px;
+    float: left;
+
+}
+#alunoform #curso3{
+    width:250px;
+    float: left;
+
+}
+#alunoform #curso2 input {
+    width: 220px;
+    margin-right: 15px;
+}
+#alunoform #curso3 input{
+    width: 220px;
+}
+#alunoform #lingua{
+    width: 150px;
+    float: right;
+
+}
+#alunoform #lingua select {
+    width: 140px;
+}

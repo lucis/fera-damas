@@ -1,0 +1,336 @@
+body {
+
+}
+#content {
+
+    margin: 0 auto;
+    width: 1000px;
+}
+#header{
+    width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url(head.jpg);
+
+
+}
+#sidebar {
+    width: 260px;
+    height: 275px;
+    background-color: beige;
+    float: left;
+    margin: 10px 0 0 0;
+    
+}
+#sidebar #menu{
+    font-family: "Trebuchet MS";
+    width: 250px;
+    background-color: #069;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    
+}
+#sidebar ul{
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    list-style: none;
+}
+#sidebar ul li{
+    margin: 10px 0 0 0;
+
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+#sidebar ul li a:hover {
+    text-decoration: underline;
+}
+#secao {
+    background-color: white;
+    width: 728px;
+    margin: 10px 0 0 0;
+    float: right;
+
+
+}
+#secao h1 {
+    font-family: "Trebuchet MS";
+    font-variant: small-caps ;
+    margin: 0;
+    text-align: center;
+
+}
+#secao table a {
+    color: #000000;
+}
+#secao table a:hover{
+    color: gray;
+}
+#secao #niver {
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    color: black;
+
+}
+#secao #niver ul {
+    margin-top:0;
+}
+#secao #aniversariantes {
+    margin: 30px 0 15px 20px;
+
+}
+#secao #agenda {
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    color: black;
+
+}
+#secao #agenda ul {
+    margin-top:0;
+}
+#secao #hoje {
+    margin: 30px 0 15px 20px;
+
+}
+#secao .campo {
+    width: inherit;
+    height: 40px;
+    margin: 0 0 0 0;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+
+
+}
+#secao .campo input {
+    height: 26px;
+    width: 115px;
+    margin: -10px 0 0 0;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    color: gray;
+}
+#secao .campo textarea{
+    width: 420px;
+    height: 170px;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    color: gray;
+}
+#secao .campo #bt {
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: white;
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+    margin: 172px 0 0 340px;
+}
+#secao .campo #bt:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+#secao #erroAgendar{
+    width: 200px;
+    height: 25px;
+    background-color: salmon;
+    float: right;
+    margin: -10px 300px 0 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+#secao .busca .nome {
+    width: 350px;
+}
+
+#secao .campoBuscar {
+    width: 620px;
+    height: 40px;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-family: "Trebuchet MS";
+    float: left;
+
+}
+#secao .campoBuscar input {
+    height: 26px;
+    width: 350px;
+    margin: -10px 0 0 0;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    color: gray;
+}
+#secao .campoBuscar .busca{
+    width: 80px;
+    height: 26px;
+    border: 1px solid #000;
+    background-color: white;
+    font-size: 18px;
+    font-family: "Trebuchet MS";
+    float: right;
+    margin: 3px 0 0 0;
+}
+#secao .campoBuscar .busca:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+#secao .linha_aluno{
+    font: 18px "Trebuchet MS";
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+
+#secao .linha_aluno span{
+    color: darkgrey;
+}
+#secao #turmas ul {
+    list-style: none;
+
+    width: 700px;
+    margin: 0 auto;
+}
+#secao #turmas ul li{
+    background-color: #006699;
+    width: 140px;
+    height: 70px;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+
+}
+#secao #turmas ul li .t{
+    width: 110px;
+    padding: 0;
+    height: 23px;
+    font: 23px "Trebuchet MS";
+    margin: 23px 0 0 15px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+#secao #turmas ul li:hover .t{
+    color: #006699;
+}
+#secao #turmas ul li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+#secao .linkenem a{
+    text-decoration: none;
+    color: green;
+}
+#secao .linkenem a:hover {
+    text-decoration: underline;
+}
+#secao small {
+    color: green;
+}
+#secao small a{
+     color: chartreuse;
+     text-decoration: none;
+ }
+#secao small a:hover{
+
+    text-decoration: underline;
+}
+#secao #nav { 
+    width: 100%;
+    height: 30px;
+
+    margin: 0 0 10px 0;
+
+
+}
+#secao #nav .voltar {
+    width: 120px;
+    height: 30px;
+    background-color: darkslategray;
+    float: right;
+    text-align: center;
+
+}
+#secao #nav .editar {
+    margin-right: 15px;
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: darkslategray;
+    text-align: center;
+}
+#secao #nav .editar a{
+    font: 21px "Trebuchet MS";
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #fff;
+}
+#secao #nav .editar a:hover{
+
+}
+
+#secao #nav .nota {
+    margin-right: 50px;
+    float: left;
+    width: 190px;
+    height: 30px;
+    background-color: darkslategray;
+    text-align: center;
+}
+#secao #nav .nota a{
+    font: 21px "Trebuchet MS";
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #fff;
+}
+#secao #nav .nota a:hover{
+
+}
+#secao #nav .voltar a {
+    font: 21px "Trebuchet MS";
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #fff;
+}
+#secao #nav .voltar a:hover{
+
+}
+#secao #horario {
+    width: 700px;
+    margin: 30px auto;
+
+}
+#secao #horario ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 650px;
+
+
+}
+#secao #horario ul li {
+    display: inline;
+
+}
+#secao #horario ul li input {
+    width: 150px;
+    height: 23px;
+    font: 17px "Trebuchet MS";
+    text-transform: uppercase;
+    text-align: center;
+}
+#secao #horario ul.turma1 {
+    margin-top: 10px;
+}
+#secao #horario ul.turma1 li {
+    width: 150px;
+    float: left;
+    margin: 0 4px 0 0;
+
+    font: 19px "Trebuchet MS";
+    color: #006699;
+    text-align: center;
+}
